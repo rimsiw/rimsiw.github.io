@@ -30,7 +30,6 @@ Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptio
 
 ## Images
 
-![This is a placeholder image description](../../assets/placeholder-hero.png)
 
 ## Blockquotes
 
