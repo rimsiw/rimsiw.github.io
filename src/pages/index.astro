@@ -21,6 +21,8 @@ const featuredPosts = posts.filter((post) => post.data.featured);
 const featuredSeries = (await getCollection("series")).filter((s) => s.data.featured);
 ---
 
+<script src="https://kit.fontawesome.com/51e1ad6387.js" crossorigin="anonymous"></script>
+
 <BaseLayout>
   <div class="space-y-10">
     <div class="space-y-4">
@@ -42,9 +44,21 @@ const featuredSeries = (await getCollection("series")).filter((s) => s.data.feat
           target="_blank"
           class="inline-flex items-center justify-center space-x-2 py-2 px-3 rounded-md bg-slate-300 hover:bg-slate-400 dark:bg-slate-800 dark:hover:bg-slate-700"
         >
+
           <MdiGithub />
           <span>GitHub</span>
         </a>
+      </div>
+      <div>
+        <h2 class="text-4x1 text-black dark:text-white font-black">
+          Socials!
+        </h2>
+        <div>
+          <br> <br>
+          <i class="fa-brands fa-signal-messenger"></i> <b>Signal: @rimsiw.20</b> <br>
+          <i class="fa-brands fa-discord"></i> <b>Discord: @rimsiw</b> <br> 
+          <i class="fa-brands fa-mastodon"></i> <b>Mastodon: @rimsiw@blahaj.zone</b>
+        </div>
       </div>
     </div>
 </BaseLayout>
