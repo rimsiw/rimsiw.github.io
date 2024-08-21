@@ -12,10 +12,10 @@ body {
 }
 
 .headline {
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    border: 2px dashed #f69c55;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: justify;
 }
 .span-headline {
     display: inline-block;
