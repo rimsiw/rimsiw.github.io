@@ -19,9 +19,3 @@ body {
     width: 85%;
     border: 2px dashed #c7aaaa;
 }
-
-.span-headline {
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;
-}
