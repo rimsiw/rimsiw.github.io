@@ -12,8 +12,12 @@ body {
 }
 
 .headline {
+    display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
+    height: 100px;
+    width: 85%;
     border: 2px dashed #c7aaaa;
 }
 
