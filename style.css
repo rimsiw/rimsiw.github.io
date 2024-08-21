@@ -10,3 +10,7 @@ body {
     color: #e7c8c8;
     font-family: 'mononoki';
 }
+
+.headline {
+    text-align: center;
+}
