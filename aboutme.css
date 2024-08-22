@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'mononoki';
+    src: url('fonts/mononoki-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: monospace;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333333;
+    color: #e7c8c8;
+    font-family: 'mononoki';
+}
+
+a {
+    color: #e68bdeea;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e969deea;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #c469bcea;
+    text-decoration: none;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+.info .games{
+    color: #eee0e0;
+}
