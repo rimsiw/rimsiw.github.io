@@ -37,6 +37,7 @@ img {
     max-width: 100%;
 }
 
-.info .games{
+.info .games .headline .char{
     color: #eee0e0;
+    max-width: 80%;
 }
